@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<style>
+           *{
+             margin:0;
+             padding:0;
+             }
+           .h2{
+             text-align:center;
+             color:blue;
+             }
+           .p{
+             text-align:center;
+             color:red;
+             }
+    </style>
+  </head>
+  <body>	
+	<h2 class="h2">本直充免费使用</h2>
+    <p class="p">全新地铁城极速接口，快速刷入，本软件免费，使用的人太多所以有些账号会慢些，如果多选则无法提交，只能选其中一个!!!</p>
+    <form>
+        普通套餐:<input type="radio" value="普通套餐"/>
+        <br/>
+        中等套餐:<input type="radio" value="普通套餐"/>
+        <br/>
+        高级套餐:<input type="radio" value="普通套餐"/>
+        <br/>
+        半拉套餐:<input type="radio" value="普通套餐"/>
+        <br/>
+        终极拉满套餐:<input type="radio" value="普通套餐"/>
+        <br/>
+        <input type="reset" class="r"/>
+	</form>
+     <button onclick="a();" class="tj">提交修改</button>
+     <br/>
+     <button onclick="b();" class="c">查询修改</button>
+     
+     <script>
+         function a(){
+             alert("提交成功请等待!!!");
+             }
+         function b(){
+             alert("正在跳转查询页面!!!");
+             window.location.replace("cx.html");
+             }
+     </script>
+  </body>
+</html>
